@@ -1,0 +1,10 @@
+.container-inside{
+    margin: 3rem;
+    width: 60vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 3px 3px  10px 0px rgb(190, 186, 186);
+    border-radius: 20px;
+}

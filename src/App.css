@@ -1,0 +1,32 @@
+.app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-field{
+  padding: 15px;
+  outline: 0;
+  border: 0;
+  background-color: whitesmoke;
+  width: 40vw;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+}
+
+.input-field:focus{
+  outline: 0.1px solid black;
+}
+
+.btn{
+  width: 15vw;
+  cursor: pointer;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
