@@ -11,7 +11,6 @@ function App() {
     if (temp !== "") {
       setsearch(temp)
     }
-    
   }
 
   function onEnterHandle(event) {

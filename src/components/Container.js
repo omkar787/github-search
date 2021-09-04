@@ -15,14 +15,20 @@ export default function Container({ search }) {
             })
     }
     
+    // useEffect(() => {
+    //     getUserData(search)
+    // }, [])
+
     useEffect(() => {
         getUserData(search)
-       
-    }, [search])
+    },[search])
 
     return (
         <div className="container-inside">
-            <UserCard response={response} />
+            {
+                response?<UserCard response={response} />:""
+            }
+            
         </div>
     )
 }
